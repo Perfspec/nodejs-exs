@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-exs",
+  "version": "1.0.0",
+  "description": "practise plain javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perfspec/nodejs-exs.git"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "author": "Lewis Webb",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Perfspec/nodejs-exs/issues"
+  },
+  "homepage": "https://github.com/Perfspec/nodejs-exs#readme"
+}
