@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vanilla Gorilla</title>
+  </head>
+  <script>
+    function check(){
+      for(var index=0; index < document.forms[0].elements.length; index++){
+        if(check2(index)){
+          goToElement(index);
+          break;
+        }
+      }
+    }
+    function check2(index){
+      return document.forms[0].elements[index].value=="";
+    }
+    function goToElement(index){
+      document.forms[0].elements[index].focus();
+    }
+  </script>
+  <form action="check.html">
+    <input>
+    <input>
+    <input>
+    <input type="button" onclick="check()" value="Check">
+  </form>
+</html>
